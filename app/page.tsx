@@ -26,6 +26,7 @@ type Props = {
 };
 
 //next.js fix pagination reloading content
+
 export const dynamic = "force-dynamic";
 export const dynamicParams = true;
 export const revalidate = 0;
