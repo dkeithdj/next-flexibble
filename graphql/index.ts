@@ -105,7 +105,7 @@ export const getProjectByIdQuery = `
 `;
 
 export const getUserQuery = `
-  query GetUser($email: String!) {
+  query GetUser($email: Email!) {
     user(by: { email: $email }) {
       id
       name
